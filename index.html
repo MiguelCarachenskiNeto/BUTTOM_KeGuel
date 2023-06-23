@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link no botão</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+        
+        #titulo{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .layout {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .link {
+            text-decoration: none;
+            background-color: rgb(31, 97, 158);
+            color: rgb(212, 206, 206);
+            min-width: 200px;
+            padding: 10px 30px;
+            border-radius: 10px;
+        }
+
+        .link:hover {
+            background-color: rgb(69, 153, 231);
+            color: rgb(255, 255, 255);
+        }
+
+        #youtube{
+            background-color: red;
+        }
+        #youtube:hover{
+            background-color: rgb(255, 73, 73);
+        }
+
+        footer{
+            text-align: center;
+            margin: 200px 100px;
+            padding: 30px;
+            background-color: #02111f;
+            color: gray;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="titulo">
+        <p>Olá mundo Web !</p>
+    </div>  
+    <div class="layout">
+        <a href="https://www.google.com" class="link">Visite o Google</a>
+    </div>
+    <div class="layout">
+        <a href="https://www.facebook.com" class="link">Visite o Facebook</a>
+    </div>
+    <div class="layout">
+        <a href="https://www.youtube.com" class="link" id="youtube">Visite o Youtube</a>
+    </div>
+    <footer>
+        <p>Botão no Link © 2023 | Todos os direitos reservados ® Kerllon e Miguel</p>
+    </footer>
+</body>
+
+</html>
